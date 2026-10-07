@@ -1,9 +1,25 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="256" height="256" fill="#05070B"/>
-  <path d="M74 46H114V102L148 46H190V210H148V146L114 210H74V46Z" fill="white"/>
-  <path d="M138 96C138 76.1177 154.118 60 174 60C193.882 60 210 76.1177 210 96C210 115.882 193.882 132 174 132C154.118 132 138 115.882 138 96Z" fill="#05070B"/>
-  <path d="M154 96C154 83.8497 163.85 74 176 74C188.15 74 198 83.8497 198 96C198 108.15 188.15 118 176 118C163.85 118 154 108.15 154 96Z" fill="white"/>
-  <ellipse cx="176" cy="96" rx="28" ry="8" fill="#05070B"/>
-  <path d="M165 75C174 66 187 63 197 70" stroke="white" stroke-width="8" stroke-linecap="round"/>
-  <path d="M153 116C158 128 167 136 177 142" stroke="white" stroke-width="8" stroke-linecap="round"/>
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#05070B"/>
+
+  <g transform="translate(0 20)">
+    <!-- Stylized H forming the angular main structure -->
+    <path d="M125 120L287 120L287 205L415 205L415 120L594 120L594 280L452 280L452 348L594 348L594 540L415 540L415 414L287 414L287 540L125 540L125 348L268 348L268 280L125 280V120Z" fill="white"/>
+
+    <!-- Black hole ring integrated into the H -->
+    <circle cx="565" cy="310" r="167" stroke="white" stroke-width="42"/>
+    <circle cx="565" cy="310" r="95" fill="#05070B"/>
+
+    <!-- Accretion disk / angular slash -->
+    <path d="M402 185L756 185L710 250L360 250L402 185Z" fill="white"/>
+    <path d="M365 250L726 250L684 315L322 315L365 250Z" fill="white"/>
+    <path d="M310 311L643 311L600 375L255 375L310 311Z" fill="white"/>
+
+    <!-- Additional angular notch to create the futuristic look -->
+    <path d="M927 120H1088V200H1020L926 310V120Z" fill="white"/>
+    <path d="M927 420H1088V500H1020L926 610V420Z" fill="white"/>
+
+    <!-- Cut-through diagonal forming the black hole event-horizon accent -->
+    <path d="M443 152L783 152L705 489L370 489L443 152Z" fill="#05070B"/>
+    <path d="M472 168L754 168L688 468L409 468L472 168Z" fill="white"/>
+  </g>
 </svg>
